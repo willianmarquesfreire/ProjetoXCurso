@@ -1,0 +1,11 @@
+cria Jframes abaixo:
+
+TelaTurma
+TelaPresenca
+TelaMatricula
+TelaCurso
+TelaConteudo
+
+obs:
+1 - pacote que vai ser colocado estas classe é br.com.telas
+2 - Para ter base de como fazer, veja telaPessoa
