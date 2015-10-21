@@ -10,6 +10,16 @@ public class Curso {
     private List<Turma> turmas;
     private List<Conteudo> conteudos;
 
+    public Curso(String nome, String descricao, String ministrante, List<Turma> turmas, List<Conteudo> conteudos) {
+        this.nome = nome;
+        this.descricao = descricao;
+        this.ministrante = ministrante;
+        this.turmas = turmas;
+        this.conteudos = conteudos;
+    }
+    
+    
+
     public List<Turma> getTurmas() {
         return turmas;
     }
